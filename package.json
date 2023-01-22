@@ -1,6 +1,6 @@
 {
   "name": "bin-proxy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "lincense": "MIT",
   "main": "build/main/index.js",

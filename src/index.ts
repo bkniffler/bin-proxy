@@ -10,6 +10,7 @@ export default (cmd: string, base: string) => {
   // console.log(`Running <${command}>`);
   execSync(command, {
     cwd: process.cwd(),
+    env: process.env,
     stdio: 'inherit',
   });
 };
